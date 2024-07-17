@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 chrono = "0.4.38"
 postgres = { version = "0.19.7", features = [ "with-chrono-0_4" ] } 
+mongodb = { version = "3.0.1", features = [ "sync" ] }
+anyhow = { version = "1.0", default-features = false }
